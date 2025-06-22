@@ -1,0 +1,39 @@
+# ─────────── Web UI & Core ───────────
+streamlit>=1.33.0
+openai>=1.23.0
+python-dotenv>=1.0.1
+
+# ─────────── LangChain (LLM orchestration) ───────────
+langchain-core>=0.1.11
+langchain-openai>=0.0.5
+langchain-community>=0.0.27
+
+# ─────────── NLP / HF Stack ───────────
+transformers>=4.40.0          # trust_remote_code 개선
+huggingface_hub>=0.23.0
+sentence-transformers>=2.3.1
+accelerate>=0.27.2            # GPU/CPU 매핑 자동화
+
+# ─────────── PyTorch & Audio ───────────
+torch>=2.1.2
+torchaudio>=2.1.2
+librosa>=0.10.1
+pyaudio>=0.2.13               # 로컬 마이크 녹음
+ffmpeg-python>=0.2.0
+audio-recorder-streamlit>=0.0.8
+openai-whisper>=20231117      # Whisper STT
+
+# ─────────── Vector DB (Pinecone) ───────────
+pinecone>=2.2.2               
+
+# ─────────── Data / Science ───────────
+numpy>=1.26.4
+pandas>=2.2.1
+scikit-learn>=1.4.2
+matplotlib>=3.8.4
+plotly>=5.20.0
+
+# ─────────── Misc ───────────
+pydub>=0.25.1
+SpeechRecognition>=3.10.0
+requests>=2.31.0
