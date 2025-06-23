@@ -107,5 +107,3 @@ SER-CHATBOT-PROJECT
 
 MIT License
 
-
-```
