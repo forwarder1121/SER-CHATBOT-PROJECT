@@ -129,13 +129,5 @@ SER-CHATBOT-PROJECT
 
 MIT License
 
----
-
-## 10. 연락처
-
-*Issue / PR* 또는 ✉️ [forwarder1121@naver.com](mailto:forwarder1121@naver.com)
-
----
-
 
 ```
